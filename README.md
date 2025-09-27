@@ -5,8 +5,7 @@ Code for finetuning Qwen3 models to produce correctly formatted entity extractio
 ## Setup
 1. Clone the repository.
 2. Install dependencies with `environment.yml`.
-3. Set up environment
-Create a `.env` file with the following content:
+3. Create a `.env` file with the following content:
 ```
 OPENAI_API_KEY="..." # Your OpenAI API key
 LLM_BINDING=openai # LLM binding type (e.g., openai)
